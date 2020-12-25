@@ -1,0 +1,16 @@
+With your project open in the Unity editor:
+
+    Open the editor settings window.
+        Edit > Project Settings > Editor
+    Make .meta files visible to avoid broken object references.
+        Version Control / Mode: “Visible Meta Files”
+    Use plain text serialization to avoid unresolvable merge conflicts.
+        Asset Serialization / Mode: “Force Text”
+    Save your changes.
+        File > Save Project
+
+This will affect the following lines in your editor settings file:
+
+    ProjectSettings/EditorSettings.asset
+        m_ExternalVersionControlSupport: Visible Meta Files
+        m_SerializationMode: 2
