@@ -1,3 +1,3 @@
-# Game Name
+# Presidential Power
 
-Elevator Pitch
+Gain supporters to retain your most powerful source, being president!
